@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Phoenix Location",
+    "address": "101 Sedalia Drive, Phoenix, AZ 85001",
+    "phoneNumber": "602-555-1212"
+  },
+  {
+    "name": "Phoenix Location",
+    "address": "8023 Sedalia Dr., Phoenix, AZ",
+    "phoneNumber": "602-555-1213"
+  },
+  {
+    "name": "Scottsdale Location",
+    "address": "901 S. Sedona Way, Scottsdale, AZ",
+    "phoneNumber": "602-555-1214"
+  },
+  {
+    "name": "Tuscon Location",
+    "address": "Some address in Tucson, AZ",
+    "phoneNumber": "602-555-1215"
+  },
+  {
+    "name": "Las Vegas Location",
+    "address": "Some address in Las Vegas, NV",
+    "phoneNumber": "702-555-1212"
+  },
+  {
+    "name": "Albuquerque Location",
+    "address": "Some address in Albuquerque, NM",
+    "phoneNumber": "505-555-1212"
+  }
+]

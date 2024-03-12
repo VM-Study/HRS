@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Customer Panel</title>
+    <style>
+        .feature-box {
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .feature-title {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+<div th:replace="~{menu.html}"></div>
+
+<div class="container mt-5">
+    <h1>Welcome to Our Service</h1>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h2 class="feature-title">Browse Products & Services</h2>
+                <p>Explore our wide range of products and services.</p>
+                <a href="/customer/products" class="btn btn-primary">View Products</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h2 class="feature-title">Create Order</h2>
+                <p>Select products/services and place an order.</p>
+                <a href="#" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#createOrderModal">Place Order</a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h2 class="feature-title">Track Your Order</h2>
+                <p>Enter your order ID to track delivery status.</p>
+                <form action="/customer/trackDelivery" method="get">
+                    <div class="mb-3">
+                        <label for="orderId" class="form-label">Order ID</label>
+                        <input type="text" class="form-control" id="orderId" name="orderId" required>
+                    </div>
+                    <button type="submit" class="btn btn-info">Track Delivery</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

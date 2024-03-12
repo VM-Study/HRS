@@ -1,0 +1,82 @@
+[
+  {
+    "address": "123 Elm St, Springfield",
+    "email": "john.doe@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "phoneNumber": "555-1234",
+    "preferences": "Eco-friendly materials"
+  },
+  {
+    "address": "456 Maple Ave, Springfield",
+    "email": "jane.smith@example.com",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "phoneNumber": "555-5678",
+    "preferences": "Modern design"
+  },
+  {
+    "address": "789 Oak Dr, Springfield",
+    "email": "alice.jones@example.com",
+    "firstName": "Alice",
+    "lastName": "Jones",
+    "phoneNumber": "555-9012",
+    "preferences": "Low maintenance"
+  },
+  {
+    "address": "101 Pine Rd, Springfield",
+    "email": "bob.brown@example.com",
+    "firstName": "Bob",
+    "lastName": "Brown",
+    "phoneNumber": "555-3456",
+    "preferences": "Energy efficient"
+  },
+  {
+    "address": "202 Birch Ln, Springfield",
+    "email": "carol.white@example.com",
+    "firstName": "Carol",
+    "lastName": "White",
+    "phoneNumber": "555-7890",
+    "preferences": "Budget-friendly options"
+  },
+  {
+    "address": "303 Cedar St, Springfield",
+    "email": "david.green@example.com",
+    "firstName": "David",
+    "lastName": "Green",
+    "phoneNumber": "555-2345",
+    "preferences": "High-tech gadgets"
+  },
+  {
+    "address": "404 Willow Way, Springfield",
+    "email": "eve.black@example.com",
+    "firstName": "Eve",
+    "lastName": "Black",
+    "phoneNumber": "555-6789",
+    "preferences": "Vintage style"
+  },
+  {
+    "address": "505 Elm St, Springfield",
+    "email": "frank.grey@example.com",
+    "firstName": "Frank",
+    "lastName": "Grey",
+    "phoneNumber": "555-0123",
+    "preferences": "Child-friendly design"
+  },
+  {
+    "address": "606 Maple Ave, Springfield",
+    "email": "grace.hill@example.com",
+    "firstName": "Grace",
+    "lastName": "Hill",
+    "phoneNumber": "555-4567",
+    "preferences": "Sustainable materials"
+  },
+  {
+    "address": "707 Oak Dr, Springfield",
+    "email": "henry.ford@example.com",
+    "firstName": "Henry",
+    "lastName": "Ford",
+    "phoneNumber": "555-8912",
+    "preferences": "Luxury finishes"
+  }
+]
